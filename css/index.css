@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --ciano:  #5BB0F3;
+    --branco: #ffffff;
+}
+
+df-messenger {
+    --df-messenger-button-titlebar-color: var(--ciano);
+}
+
+h1 {
+    color: var(--branco) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: rgb(138,213,238);
+    background: linear-gradient(56deg, rgba(138,213,238,1) 0%, rgba(30,92,113,1) 100%);
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+    background-color: var(--ciano) !important;
+    border-color: var(--ciano) !important;
+    margin-left: -1px;
+}
+
+.container {
+    margin: 2em;
+}
+
+.info {
+    background-color: var(--branco);
+    padding: 4em;
+    border-radius: 20px;
+}
+
+.hora{
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--branco);
+}

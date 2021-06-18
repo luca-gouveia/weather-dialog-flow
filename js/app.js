@@ -148,7 +148,7 @@ angular.module('WeatherApp', [])
     vm.carregarClima = function() {
         var apiKey = '&appid='+'5a8ee274846ac36f4be406c70e2172e9';
         var localidade = vm.localidade;
-        var api = 'http://'+'api.openweathermap.org/data/2.5/weather?q=';
+        var api = 'https://api.openweathermap.org/data/2.5/weather?q=';
         var params = '&lang=pt_br&units=metric';
         $http({
             url: api + localidade + params + apiKey,
